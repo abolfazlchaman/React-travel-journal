@@ -1,0 +1,124 @@
+/* Container holding the image and the text */
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.card--container {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  max-width: fit-content;
+}
+.container--img {
+  position: relative;
+  text-align: center;
+}
+.card--container {
+  display: flex;
+  min-width: 175px;
+  min-height: 250px;
+  margin: 0px 10px;
+  background: #ffffff;
+}
+
+.googlemaps--link {
+  padding-left: 12px;
+  text-decoration-line: underline;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918e9b;
+}
+.country--name {
+  display: inline;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+.location--image {
+  width: 7px;
+  height: 10px;
+  padding-right: 4px;
+}
+.journal--img {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 125px;
+  height: 170px;
+  display: flex;
+  align-self: center;
+  justify-self: flex-start;
+}
+.journal--img--container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.journal--content--container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: start;
+  padding-left: 20px;
+}
+h3,
+h2,
+h6,
+h5,
+p {
+  margin: 5px 0px;
+  color: #2b283a;
+}
+h5 {
+  font-family: "Inter-regular";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+h6 {
+  font-weight: 700;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 170%;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 1px solid #f5f5f5;
+  margin: 0px 60px;
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  .card--container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 0px;
+  }
+  .card--container > * > * {
+    text-align: center;
+  }
+  .journal--content--container {
+    width: 90vw;
+  }
+  h3 {
+    padding: 10px 0px;
+  }
+  p {
+    padding: 15px 0px;
+    align-self: center;
+    max-width: 250px;
+    text-align: justify !important;
+    text-justify: inter-word;
+  }
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Inter-regular";
+  src: url("./Fonts/Inter-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("./Fonts/Inter-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-light";
+  src: url("./Fonts/Inter-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  font-family: "Inter-light";
+  display: flex;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
